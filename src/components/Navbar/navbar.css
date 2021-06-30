@@ -1,0 +1,83 @@
+.navbar {
+    height: 110px;
+    width: 80vw;
+    background-color: rgba(228, 225, 225, 0.212);
+    display: flex;
+    justify-self: center;
+    margin: 0 auto;
+}
+.navbar-logo {
+    margin: 1% 2%;
+}
+.menu {
+    display: block;
+    margin: 1% 2%;
+    display: flex;
+    position: relative;
+    width: 200px;
+  }
+  
+  
+  .menu > li > a {
+    background: transparent;
+    color: rgb(163, 163, 163);
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .menu-li {
+    list-style-type: none;
+    padding: 10% 2%;
+  }
+  
+  .menu ul {
+    background: rgb(184, 183, 183);
+    height: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: all .5s ease;
+    top: 50px;
+    width: 100%;
+    list-style-type: none;
+  }
+  
+  .menu li:hover ul {
+    height: 200px;
+    opacity: 1;
+    transform: translateY(0);
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .menu ul a {
+    color: rgba(0, 0, 0, 0.527);
+    display: block;
+    padding: 15px 2px;
+    text-decoration: none;
+  }
+ .navbar-buttons {
+     display: flex;
+     align-self: center;
+     position: absolute;
+     right: 16%;
+ }
+ .btn-outlined {
+    border: 2px solid #fe8d1b;
+    background-color: white;
+    color: black;
+    padding: 15px 41px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fe8d1b;  
+ }
+ .btn {
+    background-color: white;
+    padding: 15px 41px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;  
+    background-color: #fe8d1b;
+    border: 5px solid white;
+ }
