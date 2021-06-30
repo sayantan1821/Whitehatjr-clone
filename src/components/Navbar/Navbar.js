@@ -21,7 +21,7 @@ function Navbar() {
             </div>
             <div className="menu">
                 <li className='menu-li'>
-                    <a href="/#">Courses: Coding</a>
+                    <a href="/#">Courses: <span><b>Coding</b></span></a>
                     
                     <ul>
                     <li className='child-link'><a href="/#">Child Link</a></li>

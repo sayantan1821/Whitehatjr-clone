@@ -1,22 +1,29 @@
 .navbar {
     height: 110px;
-    width: 80vw;
-    background-color: rgba(228, 225, 225, 0.212);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    /* background-color: aqua; */
+    background-color: rgb(248, 244, 244);
     display: flex;
     justify-self: center;
-    margin: 0 auto;
+    /* margin: 0 9%; */
+    z-index: 5;
 }
 .navbar-logo {
-    margin: 1% 2%;
+    margin: 1% 2% 1% 20%;
+
 }
 .menu {
     display: block;
-    margin: 1% 2%;
+    margin: 1% 1%;
     display: flex;
     position: relative;
     width: 200px;
   }
-  
+  span {
+    color: #fe8d1b;
+  }
   
   .menu > li > a {
     background: transparent;
